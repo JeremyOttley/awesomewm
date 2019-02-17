@@ -14,7 +14,7 @@ local globalKeys =
     {altkey, 'Control'},
     'l',
     function()
-      os.execute('bash ~/bin/lock.sh')
+      os.execute('xlock')
     end,
     {description = 'lock screen', group = 'hotkeys'}
   ),
